@@ -201,6 +201,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 --- !u!1 &469677411
 
@@ -376,6 +377,8 @@ CanvasRenderer:
 >>>>>>> parent of d9e2c48 (menù)
 =======
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,11 +1059,14 @@ GameObject:
   m_Name: Button
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
 =======
 >>>>>>> parent of d9e2c48 (menù)
 =======
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1285,12 +1291,15 @@ RectTransform:
 =======
   - {fileID: 707791412}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
 =======
   - {fileID: 707791412}
 >>>>>>> parent of d9e2c48 (menù)
 =======
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1384,6 +1393,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 12.86, y: -3.18, z: 0}
 =======
   m_LocalPosition: {x: -8.46, y: 0.48, z: 0}
@@ -1394,6 +1404,9 @@ Transform:
 =======
   m_LocalPosition: {x: -8.46, y: 0.48, z: 0}
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+  m_LocalPosition: {x: -8.46, y: 0.48, z: 0}
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1474,8 +1487,11 @@ BoxCollider2D:
   m_EdgeRadius: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
 --- !u!1 &1043166262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,6 +1984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13308dacb2b2942469980ee8c35b50fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   healthbar: {fileID: 381214701}
@@ -2678,10 +2695,13 @@ SpriteRenderer:
 =======
 =======
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
   b: 0
   c: 0
   d: 0
   rb: {fileID: 1476258085}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of d9e2c48 (menù)
 --- !u!1 &2025756137
@@ -3230,6 +3250,8 @@ MonoBehaviour:
 >>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
 =======
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
 --- !u!1 &2025756137
 GameObject:
   m_ObjectHideFlags: 0
@@ -3264,10 +3286,13 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of d9e2c48 (menù)
 =======
 >>>>>>> parent of ee4a244 (Aggiunta healthbar)
+=======
+>>>>>>> parent of 78f7dd4 (Merge pull request #1 from GabriGua/PacBranch)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
