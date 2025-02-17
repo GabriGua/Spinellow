@@ -28,6 +28,7 @@ public class EnemyHealth : MonoBehaviour
             health -= damage;
 
             healthbar.fillAmount = health/100f;
+            
         }
     }
 
