@@ -4,15 +4,16 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    float health;
+    [SerializeField] AttackSystem attackSystem;
+    public float health;
     float damage;
 
     [SerializeField] Image healthbar;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        health = 100;
-        damage = 20;
+        health = 3750;
+        
     }
 
     // Update is called once per frame
@@ -25,9 +26,9 @@ public class EnemyHealth : MonoBehaviour
     {
         if (health > 0)
         {
-            health -= damage;
+            health -= attackSystem.damage;
 
-            healthbar.fillAmount = health/100f;
+            healthbar.fillAmount = health/37/100f;
             
         }
     }

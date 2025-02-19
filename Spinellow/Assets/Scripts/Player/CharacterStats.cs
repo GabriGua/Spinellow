@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class CharacterStats : MonoBehaviour
+{
+   [SerializeField] MainCharactersSO[] mainCharactersSOs;
+    [SerializeField] SelectCharacter SelectCharacter;
+    public int skillPoints, strenght, speed, manaPoints, inteligence, lifePoints, luck;
+
+    public void SetCharacterStats()
+    {
+        strenght = mainCharactersSOs[SelectCharacter.OfficialCharacter].strenght;
+        speed = mainCharactersSOs[SelectCharacter.OfficialCharacter].speed;
+        manaPoints = mainCharactersSOs[SelectCharacter.OfficialCharacter].mana;
+        inteligence = mainCharactersSOs[SelectCharacter.OfficialCharacter].inteligence;
+        lifePoints = mainCharactersSOs[SelectCharacter.OfficialCharacter].life_points;
+        luck = mainCharactersSOs[SelectCharacter.OfficialCharacter].luck;
+
+    }
+}
