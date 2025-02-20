@@ -19188,7 +19188,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe714db2b6784048b9612ef45a95da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterStats: {fileID: 0}
+  SelectCharacter: {fileID: 1467235885}
+  mainCharactersSOs:
+  - {fileID: 11400000, guid: 6375f61e1a3d132479cc4867919e6048, type: 2}
+  - {fileID: 11400000, guid: b39be09ce76c2e74cb802b159cca2d02, type: 2}
+  - {fileID: 11400000, guid: 08ec027f10b51664a8883f7b13701968, type: 2}
+  - {fileID: 11400000, guid: 74dee687ea27a1b41b02035644afb62c, type: 2}
   EnemyHealth: {fileID: 1086608716}
   damage: 200
 --- !u!1 &2062682738

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class AttackSystem : MonoBehaviour
 {
-    [SerializeField] SelectCharacter SelectCharacter;
-    [SerializeField] MainCharactersSO[] mainCharactersSOs;
+  
+    [SerializeField] CharacterStats characterStats;
     [SerializeField] EnemyHealth EnemyHealth;
     public int damage = 200;
     
@@ -11,7 +11,7 @@ public class AttackSystem : MonoBehaviour
 
     private void Start()
     {
-        damage += (int)(damage * ((mainCharactersSOs[SelectCharacter.OfficialCharacter].strenght * 28f) / 100f));
+        damage += (int)(damage * ((characterStats.strenght * 28f) / 100f));
     }
 
     public void FirstAttack()
