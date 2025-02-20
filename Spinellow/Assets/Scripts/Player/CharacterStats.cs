@@ -3,11 +3,12 @@ using UnityEngine;
 public class CharacterStats : MonoBehaviour
 {
    [SerializeField] MainCharactersSO[] mainCharactersSOs;
-    [SerializeField] SelectCharacter SelectCharacter;
-    public int skillPoints, strenght, speed, manaPoints, inteligence, lifePoints, luck;
+
+    public int strenght, speed, manaPoints, inteligence, lifePoints, luck;
 
     public void SetCharacterStats()
     {
+        
         strenght = mainCharactersSOs[SelectCharacter.OfficialCharacter].strenght;
         speed = mainCharactersSOs[SelectCharacter.OfficialCharacter].speed;
         manaPoints = mainCharactersSOs[SelectCharacter.OfficialCharacter].mana;

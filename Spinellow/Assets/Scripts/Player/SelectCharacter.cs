@@ -1,6 +1,5 @@
-using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
+
 
 public class SelectCharacter : MonoBehaviour
 {
@@ -17,7 +16,7 @@ public class SelectCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     public void WannaBeAHuman()
@@ -49,7 +48,7 @@ public class SelectCharacter : MonoBehaviour
     void SetCharcter()
     {
         OfficialCharacter = character;
-        Debug.Log(OfficialCharacter);
+        
     }
 
 
