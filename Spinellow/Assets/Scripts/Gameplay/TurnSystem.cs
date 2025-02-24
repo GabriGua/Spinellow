@@ -12,7 +12,7 @@ public class TurnSystem : MonoBehaviour
     [SerializeField] EnemyHealth enemyHealth;
     
 
-    int actions = 0;
+    public int actions = 0;
 
     bool playerTurnActive = true;  // Variabile booleana che controlla il turno del giocatore
     float turnTimeLimit = 20f;     // Tempo massimo per il turno del giocatore
@@ -80,7 +80,7 @@ public class TurnSystem : MonoBehaviour
         // Controlla se la variabile booleana diventa falsa o se il tempo massimo è scaduto
         while (playerTurnActive && elapsedTime < turnTimeLimit)
         {
-            
+          
             elapsedTime += Time.deltaTime;
             
             
@@ -144,8 +144,11 @@ public class TurnSystem : MonoBehaviour
 
     public void DecreaseActions()
     {
-        
-        actions--;
+        if (actions > 0)
+        {
+            actions--;
         actionsText.text = "Actions: "+actions.ToString();
+        }
+        
     }
 }

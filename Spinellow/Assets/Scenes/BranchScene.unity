@@ -2930,6 +2930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackSystem: {fileID: 0}
   health: 0
+  turnSystem: {fileID: 0}
   healthbar: {fileID: 194803329}
 --- !u!1 &289775924
 GameObject:
@@ -3014,9 +3015,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1176079780}
-        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
-        m_MethodName: DecreaseActions
+      - m_Target: {fileID: 1086608716}
+        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
+        m_MethodName: TakeDamage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3026,9 +3027,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1086608716}
-        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
-        m_MethodName: TakeDamage
+      - m_Target: {fileID: 1176079780}
+        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
+        m_MethodName: DecreaseActions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7787,9 +7788,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1176079780}
-        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
-        m_MethodName: DecreaseActions
+      - m_Target: {fileID: 1086608716}
+        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
+        m_MethodName: TakeDamage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7799,9 +7800,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1086608716}
-        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
-        m_MethodName: TakeDamage
+      - m_Target: {fileID: 1176079780}
+        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
+        m_MethodName: DecreaseActions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10304,6 +10305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackSystem: {fileID: 2060541120}
   health: 0
+  turnSystem: {fileID: 1176079780}
   healthbar: {fileID: 1086608717}
 --- !u!114 &1086608717
 MonoBehaviour:
@@ -11028,6 +11030,7 @@ MonoBehaviour:
   timerText: {fileID: 1767494275}
   actionsText: {fileID: 164475387}
   enemyHealth: {fileID: 1086608716}
+  actions: 0
 --- !u!4 &1176079781
 Transform:
   m_ObjectHideFlags: 0
@@ -12462,9 +12465,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1176079780}
-        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
-        m_MethodName: DecreaseActions
+      - m_Target: {fileID: 1086608716}
+        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
+        m_MethodName: TakeDamage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12474,9 +12477,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1086608716}
-        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
-        m_MethodName: TakeDamage
+      - m_Target: {fileID: 1176079780}
+        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
+        m_MethodName: DecreaseActions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18930,9 +18933,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1176079780}
-        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
-        m_MethodName: DecreaseActions
+      - m_Target: {fileID: 1086608716}
+        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
+        m_MethodName: TakeDamage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18942,9 +18945,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1086608716}
-        m_TargetAssemblyTypeName: EnemyHealth, Assembly-CSharp
-        m_MethodName: TakeDamage
+      - m_Target: {fileID: 1176079780}
+        m_TargetAssemblyTypeName: TurnSystem, Assembly-CSharp
+        m_MethodName: DecreaseActions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19188,7 +19191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe714db2b6784048b9612ef45a95da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterStats: {fileID: 0}
+  characterStats: {fileID: 2029066763}
   EnemyHealth: {fileID: 1086608716}
   damage: 200
 --- !u!1 &2062682738
