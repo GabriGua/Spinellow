@@ -1,0 +1,14 @@
+Salve Principe,
+
+Metti una X tra [] quando completi una task per segnarla come completata: [X]
+Ricordati di lavorare esclusivamente su Spiniscene.
+
+ecco a te delle task che puoi fare:
+
+
+[] Crea lo script (scriptableobject) relativo ai boss con tutte le caratteristiche (prendi spunto da quello dei personaggi)
+[] Crea 10 boss che abbiano una difficolta' sempre maggiore (incrementa i livelli gradualmente)
+[] Fai il menu degli item aggiungendo 5 bottoni
+[] Crea allo stesso modo di prima un altro scriptableobject relavito agli item e crea 5 item(come caratteristiche metti nome ed effetto)
+
+buon juice!!!!!!

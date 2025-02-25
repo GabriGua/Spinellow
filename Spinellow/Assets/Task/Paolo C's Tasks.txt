@@ -1,0 +1,14 @@
+Ciao Paolo C,
+
+Metti una X tra [] quando completi una task per segnarla come completata: [X]
+Ricordati di lavorare esclusivamente su Branchscene.
+
+ecco a te delle task che puoi fare:
+
+
+[] Crea il menu delle stats (devi fare in modo che al click compaia la card del player con tutte le sue stats)
+[] Crea lo script relativo alla vita del player
+[] Fai in modo che la vita del player si abbassi ogni volta che e' il turno del boss
+[] Fai in modo che la vita cambi in base al player selezionato (ovvero in base al livello della vita[trovi la tabella livello-valore su whatsapp])
+
+buon juice!!!!!!
